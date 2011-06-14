@@ -4,7 +4,11 @@
 
  * Marijn Kampf (Nickname: marijnkampf)
   <marijn at exadium dot com>
-
+   
+   http://www.exadium.com/tools/silverstripe/modules/invisible-spam-protection-module/
+   
+   Sponsored by Exadium Web Development
+   
 ## Introduction
 
 Very simple anti spam protection based on principle that automated spammers enter bogus information in all form fields.
