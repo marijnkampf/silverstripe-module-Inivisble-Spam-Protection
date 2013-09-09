@@ -1,0 +1,18 @@
+{
+	"name": "exadium/invisiblespamprotection",
+	"description": "Very simple anti spam protection based on principle that automated spammers enter bogus information in all form fields. Field is added to form that is hidden using CSS hiding it from human users. Form is only allowed to be submitted if field is empty. Includes an EditableInvisibleSpamField to integrate with the UserForms module.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "module", "anti-spam", "spam", "unintrusive", "invisible", "protection"],
+	"authors": [
+	{
+		"name": "Marijn Kampf",
+		"email": "info@exadium.com"
+	}
+	],
+
+	"require":
+	{
+    "silverstripe/cms": "2.4.*",
+    "silverstripe/spamprotection": "0.4.*@dev"
+	}
+}
