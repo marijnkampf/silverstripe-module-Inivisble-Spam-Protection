@@ -34,18 +34,18 @@ class InvisibleSpamProtectorField extends SpamProtectorField {
 	 *
 	 * @return HTML
 	 */
-	function Field() {
-		Requirements::themedCSS("InvisibleSpamProtetor");
+	function Field($properties = array()) {
+		Requirements::css("InvisibleSpamProtection/css/InvisibleSpamProtector.css");
 
 		if(self::showAntiSpam()) {
 			$attributes = array(
 				'type' => 'text',
 				'class' => 'text ' . ($this->extraClass() ? $this->extraClass() : ''),
 				'id' => $this->id(),
-				'name' => $this->Name(),
+				'name' => $this->getName(),
 	 			'value' => "",
 				'title' => _t('InvisibleSpamProtectionField.LEAVEEMPTY', "If you see this field, please leave empty. It's a automated spam trap."),
-				'tabindex' => $this->getTabIndex(),
+				'tabindex' => $this->getAttribute("tabindex"),
 				'maxlength' => ($this->maxLength) ? $this->maxLength : null,
 				'size' => ($this->maxLength) ? min( $this->maxLength, 30 ) : null
 			);
