@@ -6,7 +6,7 @@
  * @package Invisiblespamprotection
  */
 
-class InvisibleSpamProtectorField extends SpamProtectorField {
+class InvisibleSpamProtectorField extends FormField {
 	static $always_show_captcha = false;
 
 	static $force_check_on_members = false;
