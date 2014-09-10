@@ -23,4 +23,10 @@ class InvisibleSpamProtector implements SpamProtector {
 	public function sendFeedback($object = null, $feedback = "") {
 		return true;
 	}
+
+	/**
+	 * Not used by InvisibleSpamProtection
+	 */
+	public function setFieldMapping($fieldMapping) {}
+	
 }
