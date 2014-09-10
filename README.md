@@ -65,7 +65,16 @@ php composer.phar update
  Download the module and extract it, into a folder which should be named InvisibleSpamProtection.
  
 ## Enable the Module ##
-Enable anti spam in mysite/_config.php by adding line 
+Yml configuration add to your config.yml file or create spamprotection.yml with the following:
+```
+---
+name: spamprotection
+---
+FormSpamProtectionExtension:
+  default_spam_protector: InvisibleSpamProtector
+```
+
+Or enable anti spam in mysite/_config.php by adding line 
 
 ```
 SpamProtectorManager::set_spam_protector('InvisibleSpamProtector');
