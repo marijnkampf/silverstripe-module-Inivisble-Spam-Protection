@@ -39,18 +39,18 @@ Add this to your composer.json:
 ```js
 {
     "require": {
-        "marijnkampf/InvisibleSpamProtection": "dev-master"
+      "exadium/silverstripe-invisible-spam-protection": "dev-master"
     }
 }
 ```
 
 or execute the following command
 
-```php composer.phar require "marijnkampf/InvisibleSpamProtection": "dev-master"```
+```php composer.phar require "exadium/silverstripe-invisible-spam-protection": "dev-master"```
 
 After that execute
 
-```php composer.phar update "marijnkampf/InvisibleSpamProtection"```
+```php composer.phar update "exadium/silverstripe-invisible-spam-protection": "dev-master"```
 
 to install the module. If you have set your minimum-stability to stable, you may need to install the spam-protection-module explicitly:
 
