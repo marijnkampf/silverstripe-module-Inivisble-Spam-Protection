@@ -69,8 +69,7 @@ class InvisibleSpamProtectorField extends FormField {
 				$this->name,
 				_t(
 					'InvisibleSpamProtectionField.FIELDNOTEMPTY',
-					"Anti-spam field is not empty. Please leave field unchanged.",
-					PR_MEDIUM
+					"Anti-spam field is not empty. Please leave field unchanged."
 				),
 				"error"
 			);
