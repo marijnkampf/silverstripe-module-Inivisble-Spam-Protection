@@ -35,7 +35,7 @@ class InvisibleSpamProtectorField extends FormField {
 	 * @return HTML
 	 */
 	function Field($properties = array()) {
-		Requirements::css("InvisibleSpamProtection/css/InvisibleSpamProtector.css");
+		Requirements::css(INVISIBLESPAMPROTECTION_DIR . "/css/InvisibleSpamProtector.css");
 
 		if(self::showAntiSpam()) {
 			$attributes = array(
